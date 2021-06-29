@@ -33,7 +33,7 @@ allowed_mentions = discord.AllowedMentions(
     roles=False,
     users=True,
 )
-
+print "test"
 bot = MyBot(description=config["bot"]["description"], intents=intents, allowed_mentions=allowed_mentions,
             help_command=EmbedHelpCommand())
 
